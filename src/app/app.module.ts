@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogSpinnerComponent } from './dialog-spinner/dialog-spinner.component';
 import { Dialog1Component } from './dialog-spinner/dialog1/dialog1.component';
 import { Dialog2Component } from './dialog-spinner/dialog2/dialog2.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { Dialog2Component } from './dialog-spinner/dialog2/dialog2.component';
     DashboardComponent,
     DialogSpinnerComponent,
     Dialog1Component,
-    Dialog2Component
+    Dialog2Component,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
